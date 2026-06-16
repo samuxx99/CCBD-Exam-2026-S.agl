@@ -1,0 +1,4 @@
+# Local secrets and service account keys
+*.json
+/data/
+
