@@ -1,7 +1,7 @@
 SELECT 
   'Traffic Signal' AS infrastructure_element,
   ROUND(100 * COUNTIF(Traffic_Signal = true) / COUNT(*), 2) AS impact_percentage
-FROM `accidents_2023.accidents`
+FROM `accidents_2022.accidents`
 
 UNION ALL
 
